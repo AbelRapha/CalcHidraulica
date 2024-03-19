@@ -9,7 +9,13 @@ class ExperienceFunctions:
     
     def Nikuradse(D , J , e , v ) -> float:
 
-        equation_solve = -2*mt.sqrt(2*9.81*D*J) * mt.log((e/3.71*D)+(2.51*v)/(D*mt.sqrt(2*9.81*D*J)))
+        raiz = mt.sqrt(2*9.81*D*J)
+
+        part1_log = e/(3.71*D)
+        part2_log = 2.51*v/(D*raiz)
+        log = mt.log(part1_log + part2_log)
+
+        equation_solve = -2*raiz * log
 
         return equation_solve
     
