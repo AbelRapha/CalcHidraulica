@@ -1,7 +1,7 @@
 import streamlit as st
 import math as mt
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+#import plotly.graph_objects as go
+#from plotly.subplots import make_subplots
 
 class ExperienceFunctions:
 
