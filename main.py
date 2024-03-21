@@ -83,4 +83,4 @@ match options:
         pass
 
     case 'Criar o Grafico da Experiência de Nikuradse':
-        st.info('Ainda em Desenvolvimento...')
+        ef.Nikuradse_experience()
